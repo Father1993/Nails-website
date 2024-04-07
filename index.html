@@ -3,45 +3,145 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./assets/src/styles/bootstrap.min.css" />
         <link rel="stylesheet" href="./assets/src/styles/normalize.css" />
         <link rel="stylesheet" href="./assets/src/styles/styles.css" />
+        <!-- Favicons -->
+
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+        <link
+            rel="mask-icon"
+            href="./img/favicon/safari-pinned-tab.svg"
+            color="#5bbad5"
+        />
+        <meta name="msapplication-TileColor" content="#00aba9" />
+        <meta property="og:title" content="#####" />
+        <meta property="og:description" content="####" />
+        <meta property="og:image" content="./img/assets/####" />
+        <meta property="og:url" content="####" />
+
+        <!-- Descriptions -->
+        <meta name="description" content="#####" />
+        <meta name="keywords" content="#, #, #, #, #, #, #" />
+        <meta name="author" content="Andrej Spinej" />
+        <meta name="robots" content="index, follow" />
+        <meta name="language" content="ru, en" />
+        <meta name="og:title" content="####" />
+        <meta name="og:description" content="####" />
+        <meta name="og:image" content="./img/assets/###" />
+        <meta name="og:url" content="####" />
+
         <title>Ногтевой сервис | Хабаровск</title>
     </head>
     <body>
-        <header class="header container">
-            <a href="#"><img src="" alt="Логотип" /></a>
-            <nav>
-                <ul class="header-menu">
-                    <li>
-                        <a href="#">Главная</a>
-                    </li>
-                    <li>
-                        <a href="#">Услуги</a>
-                    </li>
-                    <li>
-                        <a href="#">Отзывы</a>
-                    </li>
-                    <li>
-                        <a href="#">Прайс</a>
-                    </li>
-                    <li>
-                        <a href="#">Примеры работ</a>
-                    </li>
-                    <li>
-                        <a href="#">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <a href="tel:+79990009900">+ 7 999 000 99 00</a>
+        <header class="header section-margin">
+            <div class="header__first-row container">
+                <a href="#"><img decoding="async" src="" alt="Логотип" /></a>
+                <div class="header__addres-wrapper">
+                    <div class="header__icons-wrapper">
+                        <div class="header-icons">
+                            <img
+                                decoding="async"
+                                src="./assets/img/icons/geo-alt-fill.svg"
+                                alt="Адрес"
+                            />
+                        </div>
+                        <div>
+                            <h6 class="header__info">Адрес</h6>
+                            <a class="header__link" href="tel:+79990009900"
+                                >Пушкина 30, офис: 307</a
+                            >
+                        </div>
+                    </div>
+                    <div class="header__icons-wrapper">
+                        <div class="header-icons">
+                            <img
+                                decoding="async"
+                                src="./assets/img//icons/telephone-fill.svg"
+                                alt="Телефон"
+                            />
+                        </div>
+                        <div>
+                            <h6 class="header__info">Телефон</h6>
+                            <a class="header__link" href="tel:+79990009900"
+                                >+ 7 999 000 99 00</a
+                            >
+                        </div>
+                    </div>
+                    <div class="header__icons-wrapper">
+                        <div class="header-icons">
+                            <img
+                                decoding="async"
+                                src="./assets/img/icons/clock.svg"
+                                alt="Часы работы"
+                            />
+                        </div>
+                        <div>
+                            <h6 class="header__info">Часы работы</h6>
+                            <a class="header__link" href="#contacts"
+                                >Пн-Пт с 10:00 до 19:00</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="header-second-row container">
+                <nav>
+                    <ul class="header-menu">
+                        <li>
+                            <a href="#">Главная</a>
+                        </li>
+                        <li>
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li>
+                            <a href="#">Отзывы</a>
+                        </li>
+                        <li>
+                            <a href="#">Прайс</a>
+                        </li>
+                        <li>
+                            <a href="#">Примеры работ</a>
+                        </li>
+                        <li>
+                            <a href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main class="main container">
-            <section>1</section>
-            <section>2</section>
-            <section>3</section>
-            <section>4</section>
-            <section>5</section>
+        <main class="main">
+            <section class="section-margin">
+                <div>
+                    <img class="bkg" src="./assets/img/bkg.webp" alt="" />
+                </div>
+            </section>
+            <section class="section-margin">2</section>
+            <section class="section-margin">3</section>
+            <section class="section-margin">4</section>
+            <section class="section-margin">5</section>
         </main>
-        <article class="container"><div>article</div></article>
+        <article class="article container"><div>article</div></article>
         <footer class="footer container">footer</footer>
+        <script defer src="./assets/src/js/bootstrap.min.js"></script>
+        <script defer src="./assets/src/js/main.js"></script>
     </body>
 </html>
