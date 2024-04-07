@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1368px;
+    margin: 0 auto;
+    padding: 0 30px 0 30px;
+}
+
+.header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu {
+    display: flex;
+    gap: 2rem;
+}
