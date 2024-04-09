@@ -44,8 +44,8 @@
 
 *:focus {
     border: none;
-    outline: 2px solid var(--green);
-    box-shadow: -2px -1px 30px 20px rgba(48, 104, 77, 0.3);
+    outline: 1px solid rgba(31, 177, 106, 0.2);
+    box-shadow: -2px -1px 10px 10px rgba(48, 104, 77, 0.3);
 }
 
 body {
@@ -155,7 +155,7 @@ a {
     align-items: center;
 }
 
-.header__logo-wrapper > h2 {
+.header__logo-wrapper > a {
     font-family: var(--specialFonts);
     font-weight: bold;
     font-size: 1.7rem;
@@ -186,6 +186,23 @@ a {
 
 .header-menu > li > a {
     font-family: var(--specialFonts);
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-menu > li > a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: currentColor;
+    transition: width 0.3s ease-in-out;
+}
+
+.header-menu > li > a:hover::after {
+    width: 100%;
 }
 
 .header > hr {
@@ -314,22 +331,8 @@ a {
     --bs-accordion-bg: transparent;
     --bs-accordion-border-color: var(--bs-border-color);
     --bs-accordion-border-width: var(--bs-border-width);
-    --bs-accordion-border-radius: 10px;
-    --bs-accordion-inner-border-radius: calc(
-        var(--bs-border-radius) - (var(--bs-border-width))
-    );
-    --bs-accordion-btn-padding-x: 1.25rem;
-    --bs-accordion-btn-padding-y: 1rem;
-    --bs-accordion-btn-color: var(--bs-body-color);
-    --bs-accordion-btn-bg: var(--bs-accordion-bg);
-    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23212529' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
-    --bs-accordion-btn-icon-width: 1.25rem;
-    --bs-accordion-btn-icon-transform: rotate(-180deg);
-    --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
-    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23052c65' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='M2 5L8 11L14 5'/%3e%3c/svg%3e");
+    --bs-accordion-btn-color: var(--lightGreen);
     --bs-accordion-btn-focus-box-shadow: none;
-    --bs-accordion-body-padding-x: 1.25rem;
-    --bs-accordion-body-padding-y: 1rem;
     --bs-accordion-active-color: var(--green);
     --bs-accordion-active-bg: var(--veryLightGreen);
 }
@@ -411,12 +414,14 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 1rem;
+    margin-bottom: 30px;
 }
 
 .testimonials-card {
     border: var(--lightGreen) 1px solid;
     padding: 20px 15px 20px 15px;
-    max-width: 350px;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .testimonials-card__title {
@@ -441,11 +446,100 @@ a {
 
 .testimonial-infoblock {
     margin-top: 70px;
+    font-family: var(--specialFonts);
+    font-size: 1.4rem;
 }
 
 .testimonial-infoblock > a {
     color: var(--lightGreen);
+    font-family: var(--specialFonts);
+    font-size: 1.6rem;
     text-decoration: underline;
+}
+
+.testimonials__button-wrapper {
+    text-align: center;
+}
+
+.testimonials__button-wrapper > button {
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.testimonials__button-wrapper > button.disabled svg {
+    fill: grey;
+}
+
+.swiper {
+    --swiper-pagination-color: var(--darkGreen);
+    width: 900px;
+    height: 300px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--lightGreen);
+}
+
+.swiper-button-prev:focus,
+.swiper-button-next:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    border: 1px solid var(--lightGreen);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    width: 610px;
+    margin-bottom: 30px;
+    height: 290px;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--lightGreen);
+    border-radius: 10px;
+    width: 610px;
+    padding: 20px 20px 30px 20px;
+    height: 280px;
+}
+
+.contacts-info > h5 {
+    text-align: center;
+    font-family: var(--specialFonts);
+}
+
+.contacts-info > a {
+    text-align: center;
+    font-family: var(--allFonts);
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.contacts-address {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.map-wrapper {
+    max-width: 610px;
 }
 
 .aside {

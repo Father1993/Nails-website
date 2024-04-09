@@ -11,6 +11,11 @@
             href="./assets/src/fonts/CormorantGaramond/stylesheet.css"
         />
 
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/src/styles/bootstrap.min.css" />
         <link rel="stylesheet" href="./assets/src/styles/normalize.css" />
@@ -78,7 +83,7 @@
                             alt="Rukti-Логотип"
                         />
                     </a>
-                    <h2>RUKTI</h2>
+                    <a href="#">RUKTI</a>
                 </div>
 
                 <div class="header__address-wrapper">
@@ -523,7 +528,29 @@
                 </div>
             </section>
             <section id="testimonials" class="section-margin">
-                <div class="testimonials-wrapper container"></div>
+                <h2 class="services-title container">Отзывы</h2>
+                <div class="testimonials-wrapper container">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
                 <h5 class="testimonial-infoblock container">
                     Посмотреть больше отзывов или оставить комментарий можно
                     <a
@@ -534,14 +561,108 @@
                 </h5>
             </section>
         </main>
+        <!-- 
         <aside id="aside" class="aside">
             <div class="aside-wrapper container">
-                <!-- Новости, акции -->
+
                 ASIDE Новости акции
             </div>
-        </aside>
-        <article id="article" class="article">
-            <div class="article container">Оставьте заявку</div>
+        </aside> 
+        -->
+
+        <article id="contacts" class="contacts">
+            <h2 class="services-title container">Онлайн запись</h2>
+            <div class="contacts-block container">
+                <div class="contacts-wrapper" >
+                    <div class="form">
+                        <form>
+                            <div class="">
+                                <label for="inputName" class=""
+                                    >Имя</label
+                                >
+                                <div class="">
+                                    <input
+                                        type="text"
+                                        class="form-control""
+                                        id="inputName"
+                                        placeholder="Введите ваше имя"
+                                        required 
+                                    />
+                                </div>
+                            </div>
+                            <div class="">
+                                <label for="inputServices" class=""
+                                    >Услуга</label
+                                >
+                                <div class="">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="inputServices"
+                                        placeholder="Введите услугу"
+                                    />
+                                </div>
+                            </div>
+                            <div class="">
+                                <label
+                                    for="inputTel"
+                                    class=""
+                                    >Телефон</label
+                                >
+                                <div class="">
+                                    <input
+                                        type="tel"
+                                        class="form-control"
+                                        id="inputTel"
+                                        placeholder="Введите ваш номер для связи"
+                                        required 
+                                    />
+                                </div>
+                            </div>
+                            </fieldset>
+                            <div class="">
+                                <div class="">
+                                    <div class="">
+                                        <input
+                                            class="form-check-input"
+                                            type="checkbox"
+                                            id="gridCheck1"
+                                        />
+                                        <label
+                                            class="form-check-label"
+                                            for="gridCheck1"
+                                        >
+                                            Даю согласие на обработку персональных
+                                            данных
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <button type="submit" class="btn-online btn">
+                                        Оставить заявку
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                 
+                    <div class="contacts-info">
+                        <h5 class="contacts-address">Адрес</h5>
+                        <a target="_blank" href="https://yandex.ru/maps/-/CDRHEAzw">г. Хабаровск, Льва Толстого 23, 1 этаж</a>
+                        <h5>Телефоны</h5>
+                        <a target="_blank" href="tel:+79941443525">+7 994 144 35 25</a>
+                        <a target="_blank" href="tel:+79142025889">+7 914 202 58 89</a>
+                        <h5>Часы работы</h5>
+                        <a  href="#contacts">Ежедневно с 10:00 до 20:00</a>
+                    </div>
+                </div>
+            
+                <div class="map-wrapper">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa793a6ef0fa327ac39052cb01a2b53a3e720d57aa213b8a15303d364d193fc11&amp;source=constructor" width="600" height="600" frameborder="0"></iframe>
+                </div>
+            </div>
         </article>
         <footer id="footer" class="footer">
             <div class="footer-wrapper container">
@@ -556,6 +677,10 @@
                 </section>
             </div>
         </footer>
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+        ></script>
         <script defer src="./assets/src/js/bootstrap.min.js"></script>
         <script defer src="./assets/src/js/testimonials.js"></script>
         <script defer src="./assets/src/js/main.js"></script>
