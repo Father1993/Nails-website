@@ -3,9 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="./assets/src/fonts/manrope.css" />
+        <link
+            rel="stylesheet"
+            href="./assets/src/fonts/CormorantGaramond/stylesheet.css"
+        />
+
+        <!-- Styles -->
         <link rel="stylesheet" href="./assets/src/styles/bootstrap.min.css" />
         <link rel="stylesheet" href="./assets/src/styles/normalize.css" />
         <link rel="stylesheet" href="./assets/src/styles/styles.css" />
+
         <!-- Favicons -->
         <link
             rel="apple-touch-icon"
@@ -25,11 +35,7 @@
             href="./assets/favicon/favicon-16x16.png"
         />
         <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-        <link
-            rel="mask-icon"
-            href="./img/favicon/safari-pinned-tab.svg"
-            color="#5bbad5"
-        />
+        <link rel="mask-icon" href="./assets/img/logo.png" color="#5bbad5" />
         <meta
             property="og:title"
             content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске"
@@ -46,6 +52,8 @@
             name="description"
             content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске"
         />
+
+        <!-- Keywords -->
         <meta
             name="keywords"
             content="маникюр, педикюр, ногтевой, сервис, Хабаровск, ногти, RUKTI, рукти, rukti "
@@ -55,7 +63,8 @@
         <meta name="language" content="ru" />
         <meta name="og:url" content="####" />
 
-        <title>Ногтевой сервис | RUKTI | Хабаровск</title>
+        <!-- Title -->
+        <title>RUKTI | Ногтевой сервис | Хабаровск</title>
     </head>
     <body>
         <header class="header">
@@ -65,14 +74,14 @@
                         <img
                             class="header-logo"
                             decoding="async"
-                            src="./assets/img/logo.jpeg"
+                            src="./assets/img/logo.png"
                             alt="Rukti-Логотип"
                         />
                     </a>
-                    <h2>RUKTI- в надежных РУКАХ</h2>
+                    <h2>RUKTI</h2>
                 </div>
 
-                <div class="header__addres-wrapper">
+                <div class="header__address-wrapper">
                     <div class="header__icons-wrapper">
                         <div class="header-icons">
                             <img
@@ -85,11 +94,13 @@
                             <h6 class="header__info">Адрес</h6>
                             <a
                                 class="header__link"
-                                href="https://yandex.ru/maps/-/CDR1rKkC"
-                                >Пушкина 30, офис: 307</a
+                                target="_blank"
+                                href="https://yandex.ru/maps/-/CDRHEAzw"
+                                >Льва Толстого 23, 1 этаж</a
                             >
                         </div>
                     </div>
+
                     <div class="header__icons-wrapper">
                         <div class="header-icons">
                             <img
@@ -100,8 +111,11 @@
                         </div>
                         <div>
                             <h6 class="header__info">Телефон</h6>
-                            <a class="header__link" href="tel:+79990009900"
-                                >+ 7 999 000 99 00</a
+                            <a
+                                target="_blank"
+                                class="header__link telephone"
+                                href="tel:+79941443525"
+                                >+7 994 144 35 25</a
                             >
                         </div>
                     </div>
@@ -116,7 +130,7 @@
                         <div>
                             <h6 class="header__info">Часы работы</h6>
                             <a class="header__link" href="#contacts"
-                                >Пн-Пт с 10:00 до 19:00</a
+                                >Ежедневно с 10:00 до 20:00</a
                             >
                         </div>
                     </div>
@@ -133,55 +147,417 @@
                             <a href="#">Услуги</a>
                         </li>
                         <li>
+                            <a href="#">Мастера</a>
+                        </li>
+                        <li>
+                            <a href="#">О нас</a>
+                        </li>
+                        <li>
                             <a href="#">Отзывы</a>
-                        </li>
-                        <li>
-                            <a href="#">Прайс</a>
-                        </li>
-                        <li>
-                            <a href="#">Примеры работ</a>
                         </li>
                         <li>
                             <a href="#">Контакты</a>
                         </li>
                     </ul>
                 </nav>
+                <button class="header-btn btn">Записаться онлайн</button>
             </div>
         </header>
         <main class="main">
-            <section id="services" class="section-margin">
-                <!-- Описание услуг -->
-                section 0
+            <section id="main-section" class="section-margin">
+                <div class="main-section-wrapper container">
+                    <div class="main-section-wrapper__title">
+                        <div class="blur hero-blur"></div>
+                        <div class="blur-right hero-blur-right"></div>
+                        <h1>RUKTI НОГТЕВАЯ СТУДИЯ</h1>
+                        <p>
+                            Уютный салон в Хабаровске, где вас ждет широкий
+                            спектр услуг и гостеприимная атмосфера.
+                        </p>
+                    </div>
+                    <div class="main-section-wrapper__images">
+                        <img
+                            class="main-section-img-1"
+                            src="./assets/img/9.jpeg"
+                            alt=""
+                        />
+                        <img
+                            class="main-section-img-2"
+                            src="./assets/img/7.jpeg"
+                            alt=""
+                        />
+                        <img
+                            class="main-section-img-3"
+                            src="./assets/img/4.jpeg"
+                            alt=""
+                        />
+                        <img
+                            class="main-section-img-4"
+                            src="./assets/img/0.jpeg"
+                            alt=""
+                        />
+                    </div>
+                </div>
             </section>
-            <section id="gallery" class="section-margin">
-                <!-- Фотографии работ -->
-                section 1
+            <section id="services" class="section-margin">
+                <h2 class="services-title container">Услуги</h2>
+                <div class="services-wrapper container">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne"
+                                    aria-expanded="true"
+                                    aria-controls="collapseOne"
+                                >
+                                    МАНИКЮР
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseOne"
+                                class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Аппаратный</li>
+                                        <li>Комбинированный</li>
+                                        <li>Японский</li>
+                                        <li>Детский</li>
+                                        <li>Мужской</li>
+                                        <li>С покрытием гель лак</li>
+                                        <li>Декоративный лак</li>
+                                        <li>Наращивание на гелевые трипсы</li>
+                                        <li>Декоративный лак</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo"
+                                    aria-expanded="false"
+                                    aria-controls="collapseTwo"
+                                >
+                                    ПЕДИКЮР
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseTwo"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Аппаратный</li>
+                                        <li>Эстетический</li>
+                                        <li>Подология</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree"
+                                    aria-expanded="false"
+                                    aria-controls="collapseThree"
+                                >
+                                    КРАСИВЫЙ ГОТОВЫЙ ДИЗАЙН
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseThree"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <h3>
+                                        Обнаружьте красоту и безопасность наших
+                                        услуг для рук и ног! Наше тонкое
+                                        покрытие обеспечивает элегантный и
+                                        стильный вид, а готовый дизайн всегда
+                                        соответствуют последним модным
+                                        тенденциям. Побалуйте себя нашими
+                                        услугами, которые сейчас становятся все
+                                        более популярными!
+                                    </h3>
+                                    <ul>
+                                        <li>Френч</li>
+                                        <li>Втирка</li>
+                                        <li>Мрамор</li>
+                                        <li>Cтемпинг</li>
+                                        <li>Пленки</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFourth"
+                                    aria-expanded="false"
+                                    aria-controls="collapseFourth"
+                                >
+                                    ПОДОЛОГИЯ
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseFourth"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Установка коррекционных систем</li>
+                                        <li>Титановая нить</li>
+                                        <li>Определяем размер стопы и обуви</li>
+                                        <li>Индивидуальные консультации</li>
+                                        <li>Подстричь ногти</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button collapsed"
+                                    type="button"
+                                    data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFifth"
+                                    aria-expanded="false"
+                                    aria-controls="collapseFifth"
+                                >
+                                    ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ
+                                </button>
+                            </h2>
+                            <div
+                                id="collapseFifth"
+                                class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample"
+                            >
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>Обработка пальцев</li>
+                                        <li>Зачистка микоза</li>
+                                        <li>Обработка трещин</li>
+                                        <li>Вросший ноготь</li>
+                                        <li>Обработка бородавок</li>
+                                        <li>Обработка мозолей</li>
+                                        <li>Разгрузка</li>
+                                        <li>Парафинотерапия</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services-right-block">
+                        <div class="blur main-blur"></div>
+                        <img
+                            class="services-img-first"
+                            src="./assets/img/10.jpeg"
+                            alt=""
+                        />
+                        <div class="services-right-block__info">
+                            <img
+                                class="services-img-second"
+                                src="./assets/img/1.jpeg"
+                                alt=""
+                            />
+                            <p>
+                                Наша студия- это место, где вы можете
+                                расслабиться и насладиться профессиональным
+                                уходом за руками. Вот уже 5 лет мы задаем
+                                стандарты качества и безопасности в сфере
+                                ногтевого сервиса
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="masters" class="masters section-margin">
+                <h2 class="services-title container">Наши профессионалы</h2>
+                <div class="masters-wrapper container">
+                    <div class="master-card">
+                        <img
+                            class="master-image"
+                            src="./assets/img/master-1.jpeg"
+                            alt="Имя Фамилия"
+                        />
+                        <h5>Валерия Александровна</h5>
+                        <p>Мастер маникюра</p>
+                        <button class="btn">Записаться</button>
+                    </div>
+                    <div class="master-card">
+                        <img
+                            class="master-image"
+                            src="./assets/img/master-2.jpg"
+                            alt="Имя Фамилия"
+                        />
+                        <h5>Вера Александровна</h5>
+                        <p>Мастер-дизайнер</p>
+                        <button class="btn">Записаться</button>
+                    </div>
+                    <div class="master-card">
+                        <img
+                            class="master-image"
+                            src="./assets/img/master-3.jpeg"
+                            alt="Имя Фамилия"
+                        />
+                        <h5>Людмила Владимировна</h5>
+                        <p>Мастер маникюра</p>
+                        <button class="btn">Записаться</button>
+                    </div>
+                </div>
             </section>
             <section id="about" class="section-margin">
-                <!-- Информация о компании -->
-                section 2
+                <div class="about-wrapper container">
+                    <h2 class="services-title">О нас</h2>
+                    <h6>
+                        Добро пожаловать в Rukti - ваш персональный оазис
+                        красоты и ухода прямо в сердце города!
+                    </h6>
+                    <div class="about-info">
+                        <div class="about-card">
+                            <img
+                                class="about-images"
+                                src="./assets/img/1680263961_pictures-pibig-info-p-narisovannie-nogti-na-bumage-instagram-1.jpg"
+                                alt=""
+                            />
+                            <p>
+                                Мы специализируемся на широком спектре услуг по
+                                уходу за ногтями. Неважно, ищете ли вы
+                                классический декоративный лак или модное
+                                покрытие гель-лаком, наши опытные мастера
+                                превратят ваши ногти в произведение искусства!
+                            </p>
+                        </div>
+
+                        <div class="about-card">
+                            <img
+                                class="about-images"
+                                src="./assets/img/1680263961_pictures-pibig-info-p-narisovannie-nogti-na-bumage-instagram-1.jpg"
+                                alt=""
+                            />
+                            <p>
+                                Но наше мастерство не ограничивается только
+                                маникюром. Мы предлагаем высококачественный
+                                педикюр, эстетический и аппаратный, а также
+                                услуги подологии.
+                            </p>
+                        </div>
+
+                        <div class="about-card">
+                            <img
+                                class="about-images"
+                                src="./assets/img/1680263961_pictures-pibig-info-p-narisovannie-nogti-na-bumage-instagram-1.jpg"
+                                alt=""
+                            />
+                            <p>
+                                Устали от борьбы с вросшими ногтями, бородавками
+                                или мозолями? Мы здесь, чтобы помочь! Наши
+                                специалисты мягко и тщательно обработают любые
+                                проблемные зоны, обеспечивая комфорт и улучшение
+                                здоровья ваших ног.
+                            </p>
+                        </div>
+
+                        <div class="about-card">
+                            <img
+                                class="about-images"
+                                src="./assets/img/1680263961_pictures-pibig-info-p-narisovannie-nogti-na-bumage-instagram-1.jpg"
+                                alt=""
+                            />
+                            <p>
+                                В Rukti мы заботимся о каждой детали вашего
+                                опыта. Наша команда профессионалов проходит
+                                ежегодное обучение, чтобы оставаться в курсе
+                                последних тенденций и технологий в индустрии
+                                ногтевого сервиса. Мы предлагаем широкий выбор
+                                дизайна ногтей, чтобы подчеркнуть вашу
+                                уникальность и стиль
+                            </p>
+                        </div>
+
+                        <div class="about-card">
+                            <img
+                                class="about-images"
+                                src="./assets/img/1680263961_pictures-pibig-info-p-narisovannie-nogti-na-bumage-instagram-1.jpg"
+                                alt=""
+                            />
+                            <p>
+                                Наши мастера - настоящие профессионалы своего
+                                дела, которые подходят к каждому клиенту с
+                                вниманием и заботой. И помните, мы всегда
+                                находимся на переднем крае инноваций в области
+                                ногтевого сервиса.
+                            </p>
+                        </div>
+
+                        <div class="about-card">
+                            <img
+                                class="about-images"
+                                src="./assets/img/1680263961_pictures-pibig-info-p-narisovannie-nogti-na-bumage-instagram-1.jpg"
+                                alt=""
+                            />
+                            <p>
+                                Rukti - это не просто салон, это ваша дверь в
+                                мир красоты, мастерства и ухода. Мы с
+                                нетерпением ждем встречи с вами!
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </section>
-            <section id="blog" class="section-margin">
-                <!-- Статьи блога -->
-                section 3
+            <section id="testimonials" class="section-margin">
+                <div class="testimonials-wrapper container"></div>
+                <h5 class="testimonial-infoblock container">
+                    Посмотреть больше отзывов или оставить комментарий можно
+                    <a
+                        target="_blank"
+                        href="https://2gis.ru/khabarovsk/firm/70000001075870216"
+                        >здесь</a
+                    >
+                </h5>
             </section>
         </main>
-        <aside id="aside" class="aside container">
-            <!-- Новости, акции -->
-            ASIDE Новости акции
+        <aside id="aside" class="aside">
+            <div class="aside-wrapper container">
+                <!-- Новости, акции -->
+                ASIDE Новости акции
+            </div>
         </aside>
-        <footer id="footer" class="footer container">
-            FOOTER
-            <section id="contacts">
-                <!-- Контактная информация -->
-                Контакты
-            </section>
-            <section id="reviews">
-                <!-- Отзывы клиентов -->
-                отзывы ссылка
-            </section>
+        <article id="article" class="article">
+            <div class="article container">Оставьте заявку</div>
+        </article>
+        <footer id="footer" class="footer">
+            <div class="footer-wrapper container">
+                FOOTER
+                <section id="contacts">
+                    <!-- Контактная информация -->
+                    Контакты
+                </section>
+                <section id="reviews">
+                    <!-- Отзывы клиентов -->
+                    отзывы ссылка
+                </section>
+            </div>
         </footer>
         <script defer src="./assets/src/js/bootstrap.min.js"></script>
+        <script defer src="./assets/src/js/testimonials.js"></script>
         <script defer src="./assets/src/js/main.js"></script>
     </body>
 </html>
