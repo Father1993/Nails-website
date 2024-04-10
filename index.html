@@ -12,10 +12,12 @@
             href="./assets/src/fonts/CormorantGaramond/stylesheet.css"
         />
 
+        <!-- CDN -->
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <!-- Styles -->
         <link rel="stylesheet" href="./assets/src/styles/bootstrap.min.css" />
@@ -174,31 +176,45 @@
             <section id="main-section" class="section-margin">
                 <div class="main-section-wrapper container">
                     <div class="main-section-wrapper__title">
-                        <div class="blur hero-blur"></div>
-                        <div class="blur-right hero-blur-right"></div>
+                        <div
+                            data-aos="zoom-in-right"
+                            data-aos-duration="2000"
+                            class="blur hero-blur"
+                        ></div>
+                        <div
+                            data-aos="fade-left"
+                            data-aos-duration="1500"
+                            class="blur-section__violet section__violet-blur"
+                        ></div>
+
                         <h1>RUKTI НОГТЕВАЯ СТУДИЯ</h1>
                         <p>
                             Уютный салон в Хабаровске, где вас ждет широкий
                             спектр услуг и гостеприимная атмосфера.
                         </p>
                     </div>
+
                     <div class="main-section-wrapper__images">
                         <img
+                            data-aos="zoom-out-up"
                             class="main-section-img-1"
                             src="./assets/img/9.jpeg"
                             alt=""
                         />
                         <img
+                            data-aos="zoom-out-up"
                             class="main-section-img-2"
                             src="./assets/img/7.jpeg"
                             alt=""
                         />
                         <img
+                            data-aos="zoom-out-left"
                             class="main-section-img-3"
                             src="./assets/img/4.jpeg"
                             alt=""
                         />
                         <img
+                            data-aos="zoom-out-down"
                             class="main-section-img-4"
                             src="./assets/img/0.jpeg"
                             alt=""
@@ -207,6 +223,16 @@
                 </div>
             </section>
             <section id="services" class="section-margin">
+                <div
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                    class="section__orange-blur blur-section__orange"
+                ></div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                    class="section__pink-blur blur-section__pink"
+                ></div>
                 <h2 class="services-title container">Услуги</h2>
                 <div class="services-wrapper container">
                     <div class="accordion" id="accordionExample">
@@ -372,13 +398,21 @@
                         </div>
                     </div>
                     <div class="services-right-block">
-                        <div class="blur main-blur"></div>
+                        <div
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                            class="blur main-blur"
+                        ></div>
                         <img
+                            data-aos="fade-left"
                             class="services-img-first"
                             src="./assets/img/10.jpeg"
                             alt=""
                         />
-                        <div class="services-right-block__info">
+                        <div
+                            data-aos="fade-right"
+                            class="services-right-block__info"
+                        >
                             <img
                                 class="services-img-second"
                                 src="./assets/img/1.jpeg"
@@ -396,8 +430,18 @@
                 </div>
             </section>
             <section id="masters" class="masters section-margin">
+                <div
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                    class="blur hero-blur"
+                ></div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                    class="blur-section__violet section__violet-blur-two"
+                ></div>
                 <h2 class="services-title container">Наши профессионалы</h2>
-                <div class="masters-wrapper container">
+                <div data-aos="fade-up" class="masters-wrapper container">
                     <div class="master-card">
                         <img
                             class="master-image"
@@ -438,7 +482,17 @@
                         сердце города!
                     </h6>
                     <div class="about-info">
-                        <div class="about-card">
+                        <div
+                            data-aos="fade-up-right"
+                            data-aos-duration="2000"
+                            class="section__orange-blur blur-section__orange"
+                        ></div>
+                        <div
+                            data-aos="fade-up-left"
+                            data-aos-duration="2000"
+                            class="blur-section__about section__about-blur"
+                        ></div>
+                        <div data-aos="fade-up" class="about-card">
                             <img
                                 class="about-images"
                                 src="./assets/img/services/1-1.png"
@@ -453,7 +507,12 @@
                             </p>
                         </div>
 
-                        <div class="about-card">
+                        <div data-aos="fade-up" class="about-card">
+                            <div
+                                data-aos="fade-left"
+                                data-aos-duration="1500"
+                                class="blur-section__violet-second section__violet-blur-second"
+                            ></div>
                             <img
                                 class="about-images"
                                 src="./assets/img/services/4-1.png"
@@ -467,7 +526,7 @@
                             </p>
                         </div>
 
-                        <div class="about-card">
+                        <div data-aos="fade-up" class="about-card">
                             <img
                                 class="about-images"
                                 src="./assets/img/services/2-1.png"
@@ -482,7 +541,7 @@
                             </p>
                         </div>
 
-                        <div class="about-card">
+                        <div data-aos="fade-up" class="about-card">
                             <img
                                 class="about-images"
                                 src="./assets/img/services/5-1.png"
@@ -499,7 +558,12 @@
                             </p>
                         </div>
 
-                        <div class="about-card">
+                        <div data-aos="fade-up" class="about-card">
+                            <div
+                                data-aos="fade-up-left"
+                                data-aos-duration="2000"
+                                class="blur-section__about section__about-blur"
+                            ></div>
                             <img
                                 class="about-images"
                                 src="./assets/img/services/3-1.png"
@@ -514,7 +578,7 @@
                             </p>
                         </div>
 
-                        <div class="about-card">
+                        <div data-aos="fade-up" class="about-card">
                             <img
                                 class="about-images"
                                 src="./assets/img/services/7-1.png"
@@ -532,6 +596,16 @@
             <section id="testimonials" class="section-margin">
                 <h2 class="services-title container">Отзывы</h2>
                 <div class="testimonials-wrapper container">
+                    <div
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                        class="blur-section__testimonials section__testimonials-blur"
+                    ></div>
+                    <div
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        class="blur__two hero-blur__two"
+                    ></div>
                     <!-- Slider main container -->
                     <div class="swiper">
                         <!-- Additional required wrapper -->
@@ -576,7 +650,18 @@
         <article id="contacts" class="contacts">
             <h2 class="services-title container">Онлайн запись</h2>
             <div class="contacts-block container">
-                <div class="contacts-wrapper">
+                <div
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                    class="blur-section__contact section-contact-blur"
+                ></div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                    class="blur-section__contact-two section-contact-blur-two"
+                ></div>
+
+                <div data-aos="fade-up" class="contacts-wrapper">
                     <div class="form">
                         <form id="form" class="topBefore">
                             <input
@@ -625,7 +710,7 @@
                     </div>
                 </div>
 
-                <div class="map-wrapper">
+                <div data-aos="fade-up" class="map-wrapper">
                     <iframe
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa793a6ef0fa327ac39052cb01a2b53a3e720d57aa213b8a15303d364d193fc11&amp;source=constructor"
                         width="600"
@@ -694,6 +779,7 @@
                     >
                 </section>
             </div>
+            <hr />
             <section id="author" class="author container">
                 <p>&copy; RUKTI Хабаровск 2024 | Все права защищены</p>
                 <p>Разработка <a href="https://spinej.ru/">SAG</a></p>
@@ -703,6 +789,13 @@
             defer
             src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
         ></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                mirror: true,
+                duration: 800,
+            })
+        </script>
         <script defer src="./assets/src/js/bootstrap.min.js"></script>
         <script defer src="./assets/src/js/testimonials.js"></script>
         <script defer src="./assets/src/js/main.js"></script>

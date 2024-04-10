@@ -86,14 +86,147 @@ a {
     background: #ffdec2;
     position: absolute;
     border-radius: 50%;
-    filter: blur(170px);
+    filter: blur(150px);
+    z-index: -9;
+}
+
+.blur-section__violet-second {
+    background: var(--green);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(300px);
+    z-index: -9;
+}
+
+.section__violet-blur-second {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
+}
+
+.section__violet-blur {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
+    top: 0;
+}
+
+.section__violet-blur-two {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
+}
+
+.section__pink-blur {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
+}
+
+.blur-section__pink {
+    background: #8278ad;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(210px);
+    z-index: -8;
+}
+
+.section__orange-blur {
+    width: 32rem;
+    height: 30rem;
+    left: 0;
+}
+
+.blur-section__orange {
+    background: var(--lightGreen);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(270px);
+    z-index: -9;
+}
+
+.blur-section__testimonials {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
+}
+
+.section__testimonials-blur {
+    background: #ffdec2;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(180px);
     z-index: -9;
 }
 
 .hero-blur {
-    width: 22rem;
+    width: 32rem;
     height: 30rem;
     left: 0;
+}
+
+.blur__two {
+    background: #ffe1ee;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    z-index: -9;
+}
+
+.hero-blur__two {
+    width: 32rem;
+    height: 30rem;
+    left: 0;
+}
+
+.blur-section__violet {
+    background: var(--green);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(300px);
+    z-index: -9;
+}
+
+.section__about-blur {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
+}
+
+.blur-section__about {
+    background: #e3a9c2;
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(250px);
+    z-index: -9;
+}
+
+.blur-section__contact {
+    background: var(--lightGreen);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(230px);
+    z-index: -8;
+}
+
+.section-contact-blur {
+    width: 32rem;
+    height: 30rem;
+    left: 0;
+}
+
+.blur-section__contact-two {
+    background: var(--green);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(300px);
+    z-index: -8;
+}
+
+.section-contact-blur-two {
+    width: 32rem;
+    height: 30rem;
+    right: 0;
 }
 
 .btn {
@@ -610,4 +743,232 @@ a {
     font-size: 1rem;
     color: #fdf8f6a2;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px 0 15px;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+    .testimonials-card {
+        width: 100%;
+    }
+    .header__first-row {
+        flex-direction: column;
+    }
+
+    .header__address-wrapper {
+        display: none;
+    }
+    .header-second-row {
+        display: none;
+    }
+
+    .main-section-wrapper__title > h1 {
+        font-size: 4rem;
+    }
+
+    .main-section-wrapper {
+        flex-direction: column;
+    }
+
+    .main-section-wrapper__title > p {
+        font-size: 1.1rem;
+    }
+
+    .main-section-wrapper__images {
+        margin-top: 50px;
+        grid-column-gap: 10px;
+        grid-row-gap: 2px;
+        grid-template-columns: repeat(3, 0.5fr);
+        grid-template-rows: repeat(2, 0.5fr);
+    }
+
+    .main-section-img-1 {
+        width: 110px;
+    }
+
+    .main-section-img-2 {
+        width: 130px;
+    }
+
+    .main-section-img-3 {
+        width: 130px;
+    }
+    .main-section-img-4 {
+        width: 110px;
+    }
+
+    .services-wrapper {
+        flex-direction: column;
+    }
+
+    .accordion {
+        width: 100%;
+    }
+
+    .blur-section__pink {
+        filter: blur(370px);
+    }
+
+    .services-right-block {
+        flex-direction: column;
+    }
+
+    .services-img-first {
+        width: 100%;
+        border-radius: 10px;
+        height: 270px;
+    }
+
+    .services-img-second {
+        border-radius: 10px;
+        width: 100%;
+    }
+    .services-right-block__info > p {
+        text-align: center;
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .section-margin {
+        margin-bottom: 130px;
+    }
+
+    .masters-wrapper {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .master-image {
+        width: 100%;
+    }
+
+    .about-info {
+        flex-direction: column;
+    }
+
+    .testimonials-card {
+        max-width: 290px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .swiper {
+        max-height: 240px;
+    }
+
+    .testimonials-card > p {
+        font-size: 1rem;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .testimonial-infoblock {
+        font-size: 1.1rem;
+    }
+
+    .contacts-block {
+        flex-direction: column;
+    }
+
+    .form {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .contacts-info {
+        max-width: 100%;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    .map-wrapper > iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-social > h6 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .footer-contacts {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    footer > hr {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .blur,
+    .section-contact-blur {
+        display: none;
+    }
+
+    .blur-section__violet {
+        filter: blur(400px);
+    }
+
+    .blur-section__orange {
+        display: none;
+    }
+
+    .blur-section__pink {
+        filter: blur(400px);
+        width: 100%;
+        overflow: hidden;
+    }
+    .section-contact-blur-two {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    .blur-section__contact {
+        filter: blur(400px);
+
+        width: 100%;
+    }
+
+    .services-title {
+        margin-right: 0;
+    }
+
+    .hero-blur__two,
+    .section__about-blur,
+    .section__violet-blur-second,
+    .section__violet-blur-two,
+    .hero-blur,
+    .section__violet-blur,
+    .section__orange-blur,
+    .blur-section__pink {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .blur-section__violet-second {
+        filter: blur(400px);
+    }
+
+    #form {
+        width: 100% !important;
+    }
 }
