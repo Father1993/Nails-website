@@ -771,7 +771,7 @@ a {
     padding-bottom: 30px;
 }
 
-.author > p > a {
+.author > h6 > a {
     font-family: var(--appFonts);
     font-size: 1rem;
     color: #fdf8f6a2;

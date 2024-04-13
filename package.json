@@ -1,22 +1,36 @@
 {
-  "name": "rukti",
-  "version": "1.0.0",
-  "description": "Website for nails services",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andrej Spinej",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Father1993/Nails-website.git"
-  },
-  "keywords": [
-    "nails"
-  ],
-  "bugs": {
-    "url": "https://github.com/Father1993/Nails-website/issues"
-  },
-  "homepage": "https://github.com/Father1993/Nails-website#readme"
+    "name": "rukti",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Website for nails services",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Andrej Spinej",
+    "license": "ISC",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Father1993/Nails-website.git"
+    },
+    "keywords": [
+        "nails"
+    ],
+    "bugs": {
+        "url": "https://github.com/Father1993/Nails-website/issues"
+    },
+    "homepage": "https://github.com/Father1993/Nails-website#readme",
+    "devDependencies": {
+        "gulp": "^5.0.0",
+        "gulp-cssnano": "^2.1.3",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-imagemin": "^9.0.0",
+        "gulp-replace": "^1.1.4",
+        "gulp-terser": "^2.1.0",
+        "gulp-webp": "^5.0.0",
+        "imagemin-gifsicle": "^7.0.0",
+        "imagemin-mozjpeg": "^10.0.0",
+        "imagemin-optipng": "^8.0.0",
+        "imagemin-svgo": "^10.0.1"
+    }
 }

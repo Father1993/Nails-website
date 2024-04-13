@@ -27,7 +27,7 @@ textarea::placeholder {
 }
 
 .form-input:focus::placeholder,
-textarea::focus:placeholder {
+textarea:focus::placeholder {
     color: #bbb5af;
 }
 
@@ -84,7 +84,7 @@ textarea:hover::placeholder {
 }
 
 .form-input:hover:focus::-ms-placeholder,
-textarea:hover::focus:-ms-placeholder {
+textarea:hover:focus:-ms-placeholder {
     color: #cbc6c1;
 }
 
