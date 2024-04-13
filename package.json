@@ -1,5 +1,5 @@
 {
-  "name": "nails",
+  "name": "rukti",
   "version": "1.0.0",
   "description": "Website for nails services",
   "main": "index.js",
@@ -7,5 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Andrej Spinej",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Father1993/Nails-website.git"
+  },
+  "keywords": [
+    "nails"
+  ],
+  "bugs": {
+    "url": "https://github.com/Father1993/Nails-website/issues"
+  },
+  "homepage": "https://github.com/Father1993/Nails-website#readme"
 }

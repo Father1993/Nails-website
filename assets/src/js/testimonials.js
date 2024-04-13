@@ -22,6 +22,6 @@ fetch('../../../assets/testimonials/testimonials.json')
         })
 
         // После того как все слайды добавлены, обновите Swiper
-        var swiper = new Swiper('.swiper-container')
+        var swiper = new Swiper('.swiper')
         swiper.update()
     })
