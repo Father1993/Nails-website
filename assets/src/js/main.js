@@ -81,3 +81,27 @@ menuItems.forEach((item) => {
         menuMask.classList.remove('visible')
     })
 })
+
+let messageBtn = document.getElementById('buttonMessage')
+let messageWindow = document.getElementById('newMessage')
+let popupFormMessage = document.getElementById('popupFormMessage')
+let closeNewMessage = document.getElementById('closeNewMessage')
+let buttonMessageMobile = document.getElementById('buttonMessageMobile')
+
+messageBtn.addEventListener('click', () => {
+    newMessage.style.display = 'flex'
+})
+
+popupFormMessage.addEventListener('click', (e) => {
+    e.preventDefault()
+    newMessage.style.display = 'flex'
+})
+
+closeNewMessage.addEventListener('click', () => {
+    newMessage.style.display = 'none'
+})
+
+buttonMessageMobile.addEventListener('click', (e) => {
+    e.preventDefault()
+    newMessage.style.display = 'flex'
+})

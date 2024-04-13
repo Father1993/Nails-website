@@ -243,7 +243,7 @@
                     </ul>
                 </nav>
 
-                <button id="button" class="header-btn btn">
+                <button id="buttonMessage" class="header-btn btn">
                     Записаться онлайн
                 </button>
             </div>
@@ -259,6 +259,12 @@
             <section id="main-section" class="section-margin">
                 <div class="main-section-wrapper container">
                     <div class="main-section-wrapper__title">
+                        <button
+                            id="buttonMessageMobile"
+                            class="header-btn btn mobile-btn"
+                        >
+                            Записаться онлайн
+                        </button>
                         <h1>RUKTI НОГТЕВАЯ СТУДИЯ</h1>
                         <p>
                             Уютный салон в Хабаровске, где вас ждет широкий
@@ -270,25 +276,25 @@
                         <img
                             data-aos="zoom-out-up"
                             class="main-section-img-1"
-                            src="./assets/img/9.jpeg"
+                            src="./assets/img/9.webp"
                             alt="Ногти Хабаровск примеры"
                         />
                         <img
                             data-aos="zoom-out-up"
                             class="main-section-img-2"
-                            src="./assets/img/7.jpeg"
+                            src="./assets/img/7.webp"
                             alt="Ногти Хабаровск примеры"
                         />
                         <img
                             data-aos="zoom-out-left"
                             class="main-section-img-3"
-                            src="./assets/img/4.jpeg"
+                            src="./assets/img/4.webp"
                             alt="Ногти Хабаровск примеры"
                         />
                         <img
                             data-aos="zoom-out-down"
                             class="main-section-img-4"
-                            src="./assets/img/0.jpeg"
+                            src="./assets/img/0.webp"
                             alt="Ногти Хабаровск примеры"
                         />
                     </div>
@@ -466,7 +472,7 @@
                         >
                             <img
                                 class="services-img-first"
-                                src="./assets/img/10.jpeg"
+                                src="./assets/img/10.webp"
                                 alt="Ногти Хабаровск"
                             />
                         </div>
@@ -477,7 +483,7 @@
                         >
                             <img
                                 class="services-img-second"
-                                src="./assets/img/1.jpeg"
+                                src="./assets/img/1.webp"
                                 alt="Ногти Хабаровск"
                             />
                             <p>
@@ -497,7 +503,7 @@
                     <div class="master-card">
                         <img
                             class="master-image"
-                            src="./assets/img/master-2.jpg"
+                            src="./assets/img/master-2.webp"
                             alt="Имя Фамилия"
                         />
                         <h5>Вера Александровна</h5>
@@ -507,7 +513,7 @@
                     <div class="master-card">
                         <img
                             class="master-image"
-                            src="./assets/img/master-3.jpeg"
+                            src="./assets/img/master-3.webp"
                             alt="Имя Фамилия"
                         />
                         <h5>Людмила Владимировна</h5>
@@ -623,12 +629,6 @@
                         <!-- Additional required wrapper -->
                         <div class="swiper-wrapper">
                             <!-- Slides -->
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
-                            <div class="swiper-slide"></div>
                         </div>
 
                         <!-- If we need pagination -->
@@ -649,6 +649,43 @@
                     >
                 </h5>
             </section>
+            <div id="newMessage" class="new-message">
+                <div class="new-message-form">
+                    <div class="new-message-title">
+                        <h3>Онлайн запись</h3>
+                        <button id="closeNewMessage">X</button>
+                    </div>
+
+                    <div class="form-message">
+                        <form class="topBefore">
+                            <input
+                                class="form-input"
+                                id="name"
+                                type="text"
+                                placeholder="ИМЯ"
+                            />
+                            <input
+                                class="form-input"
+                                id="services"
+                                type="text"
+                                placeholder="ВВЕДИТЕ УСЛУГУ"
+                            />
+                            <input
+                                class="form-input"
+                                id="tel"
+                                type="number"
+                                placeholder="ТЕЛЕФОН"
+                            />
+                            <input
+                                class="form-input"
+                                id="submit"
+                                type="submit"
+                                value="Отправить"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- 
         <aside id="aside" class="aside">
@@ -726,7 +763,7 @@
                 </div>
 
                 <div class="popup-link">
-                    <a target="_blank" href="#"
+                    <a id="popupFormMessage" target="_blank" href="#"
                         ><img
                             class="envelope-image"
                             src="./assets/img/icons/envelope-check.svg"
