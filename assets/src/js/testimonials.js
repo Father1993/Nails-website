@@ -1,4 +1,4 @@
-fetch('../../../assets/testimonials/testimonials.json')
+fetch('/Nails-website/assets/testimonials/testimonials.json')
     .then((response) => response.json())
     .then((data) => {
         let swiperWrapper = document.querySelector('.swiper-wrapper')
@@ -22,6 +22,7 @@ fetch('../../../assets/testimonials/testimonials.json')
         })
 
         let swiper = new Swiper('.swiper', {
+            touchEventsTarget: 'wrapper',
             loop: true,
             navigation: {
                 nextEl: '.swiper-button-next',
