@@ -7,10 +7,10 @@
     --caloryCard: #656565;
     --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
     --appColor: #3c3f45;
-    --lightGreen: #92af9d;
-    --veryLightGreen: #a2c0ae75;
-    --green: rgb(48, 104, 77);
-    --darkGreen: #2b4d3c;
+    --lightGreen: #9c6ec0;
+    --veryLightGreen: #a275c3;
+    --green: #7900a8;
+    --darkGreen: #55016e;
     --allFonts: 'Manrope', 'Cantarell', 'Droid Sans', 'Helvetica Neue',
         sans-serif;
     --btnFonts: 'Manrope', Courier, monospace;
@@ -48,8 +48,8 @@
 
 *:focus {
     border: none;
-    outline: 1px solid rgba(31, 177, 106, 0.2);
-    box-shadow: -2px -1px 10px 10px rgba(48, 104, 77, 0.3);
+    outline: 1px solid rgba(183, 0, 255, 0.2);
+    box-shadow: -2px -1px 10px 10px rgba(133, 62, 136, 0.3);
 }
 
 body {
@@ -151,9 +151,9 @@ body {
 .loader {
     width: 70px;
     height: 70px;
-    border: 10px solid rgba(0, 255, 132, 0.281);
+    border: 10px solid rgba(109, 6, 129, 0.281);
     border-radius: 50%;
-    border-left-color: rgb(1, 212, 110);
+    border-left-color: #a275c3;
     animation: Loader 1.3s linear infinite;
 }
 
@@ -389,6 +389,21 @@ a {
     font-weight: 600;
 }
 
+.price-block__wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 77px;
+    margin-top: 77px;
+}
+
+.price-block__img {
+    max-width: 700px;
+}
+
 .main-section-wrapper {
     display: flex;
     justify-content: space-between;
@@ -522,10 +537,15 @@ a {
 }
 
 .master-card > h5 {
+    font-weight: bold;
+    font-size: 2rem;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
-.master-card > p {
+.master-card > ul > li {
+    list-style: disc;
+    max-width: 300px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -537,7 +557,7 @@ a {
 }
 
 .master-image {
-    width: 300px;
+    max-width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
@@ -572,6 +592,18 @@ a {
 
 .about-card > p {
     font-family: var(--appFonts), sans-serif;
+}
+
+.about-footer {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.about-footer > h6 {
+    font-family: var(--specialFonts);
+    text-align: center;
+    color: var(--green);
+    font-size: 2.3rem;
 }
 
 .testimonials-wrapper {
@@ -731,6 +763,12 @@ a {
     margin-bottom: 5px;
 }
 
+#submit {
+    border-bottom-color: var(--lightGreen) !important;
+    border-right-color: var(--lightGreen) !important ;
+    border-left-color: var(--lightGreen) !important;
+}
+
 .contacts-address {
     font-size: 1.5rem;
     margin: 10px;
@@ -766,7 +804,7 @@ a {
     margin-right: 15px;
 }
 
-.footer-menu > li > a,
+.footer-menu > div > li > a,
 .footer-contacts > a {
     color: #e2dedb;
     font-size: 1.2rem;
@@ -775,6 +813,11 @@ a {
 
 .footer-menu {
     margin-top: 23px;
+    display: flex;
+}
+
+.footer-menu > div {
+    margin-right: 30px;
 }
 
 .footer-contacts {
@@ -826,6 +869,15 @@ a {
 
 .mobile-btn {
     display: none;
+}
+@media screen and (max-width: 1660px) {
+    .price-block__wrapper {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .price-block__img {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 1280px) {
@@ -1042,7 +1094,11 @@ a {
 
     .master-card {
         max-width: 100%;
-        padding: 40px 40px 40px 40px;
+        padding: 30px 30px 30px 30px;
+    }
+
+    .master-card > button {
+        margin-top: 30px;
     }
 
     .master-image {
@@ -1063,7 +1119,7 @@ a {
     }
 
     .swiper {
-        max-height: 400px;
+        height: 360px;
     }
 
     .testimonials-card > p {
@@ -1171,6 +1227,10 @@ a {
 
     .dropdown > button > img {
         width: 40px;
+    }
+
+    .testimonials-wrapper {
+        height: 600px;
     }
 }
 
