@@ -20,6 +20,7 @@
     <link type="text/css" rel="stylesheet" href="./assets/src/styles/styles.css" />
     <link type="text/css" rel="stylesheet" href="./assets/src/styles/form.css" />
 
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
@@ -42,7 +43,7 @@
     <meta name="og:url" content="####" />
 
     <!-- Title -->
-    <title>RUKTI | Прайс | Цены Хабаровск</title>
+    <title>RUKTI | Портфолио | Примеры работ Хабаровск</title>
 </head>
 
 <body>
@@ -50,10 +51,44 @@
     </header>
 
     <main>
-        <section id="priceBlock" class="price__block">
-            <div class="price-block__wrapper container">
-                <img class="price-block__img" src="./assets/img/price_1.jpg" alt="Прайс">
-                <img class="price-block__img" src="./assets/img/price_1.jpg" alt="Цены на услуги">
+        <section id="portfolioBlock" class="portfolio__block" data-ride="carousel">
+
+            <div class="portfolio__wrapper container">
+
+
+
+
+
+                <div class="two-image-wrapper">
+                    <img class="portfolio-image" src="./assets/img/portfolio/03.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/04.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/05.webp" alt="Примеры работ" />
+                </div>
+
+                <img class="portfolio-image" src="./assets/img/portfolio/25.webp" alt="Примеры работ" />
+                <div class="all-images-wrapper">
+                    <img class="portfolio-image" src="./assets/img/portfolio/06.webp" alt="Примеры работ" />
+
+                    <img class="portfolio-image" src="./assets/img/portfolio/8.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/11.webp" alt="Примеры работ" />
+
+
+
+
+                    <img class="portfolio-image" src="./assets/img/portfolio/22.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/23.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/24.webp" alt="Примеры работ" />
+
+                    <img class="portfolio-image" src="./assets/img/portfolio/7.webp" alt="Примеры работ" />
+
+                </div>
+
+                <div class="two-image-wrapper">
+                    <img class="portfolio-image" src="./assets/img/portfolio/0.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/01.webp" alt="Примеры работ" />
+                    <img class="portfolio-image" src="./assets/img/portfolio/02.webp" alt="Примеры работ" />
+                </div>
+
             </div>
 
             <div id="newMessage" class="new-message">
@@ -73,10 +108,10 @@
                     </div>
                 </div>
             </div>
+
         </section>
-
-
     </main>
+
 
     <footer id="footer" class="footer">
         <?php include 'footer.php'; ?>

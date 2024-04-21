@@ -8,49 +8,53 @@
     <nav class="menu-nav">
         <ul class="menu-list">
             <li class="menu-items">
-                <a class="menu-item" href="#main-section">Главная</a>
+                <a class="menu-item" href="./index.php">Главная</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#servicesBlock">Услуги</a>
+                <a class="menu-item" href="./index.php#servicesBlock">Услуги</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#employees">Мастера</a>
+                <a class="menu-item" href="./index.php#employees">Мастера</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#about">О нас</a>
+                <a class="menu-item" href="./index.php#about">О нас</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#testimonials">Отзывы</a>
+                <a class="menu-item" href="./index.php#testimonials">Отзывы</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#testimonials">Портфолио</a>
+                <a class="menu-item" href="./portfolio.php">Портфолио</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#testimonials">Прайс</a>
+                <a class="menu-item" href="./price.php">Прайс</a>
             </li>
             <li class="menu-items">
-                <a class="menu-item" href="#contactInfo">Контакты</a>
+                <a class="menu-item" href="./index.php#contactInfo">Контакты</a>
             </li>
         </ul>
     </nav>
 </div>
 
 <header class="header">
-
     <div class="header__first-row container">
         <div class="header__logo-wrapper">
             <div class="header__logo-wrapper--logo">
-                <a href="#">
+                <a href="./index.php">
                     <img class="header-logo" decoding="async" src="./assets/img/logo.png" alt="Rukti-Логотип" />
                 </a>
-                <a href="#">RUKTI</a>
+                <a href="./index.php">RUKTI</a>
             </div>
 
             <div id="dropDown" class="dropdown">
-                <button>
+                <button class="menu-image-btn">
                     <img class="menu-image" src="./assets/img/icons/list.svg" alt="Кнопка меню" />
                 </button>
             </div>
+
+
+            <button class="btn-popup-menu" id="popupMenuBtn">
+                <img src="./assets/img/icons/chat-square-dots.svg" alt="Заявка" />
+            </button>
         </div>
 
         <div class="header__address-wrapper">
@@ -90,28 +94,32 @@
         <nav>
             <ul class="header-menu">
                 <li>
-                    <a href="#main-section">Главная</a>
+
+                    <a href="./index.php">Главная</a>
                 </li>
                 <li>
-                    <a href="#servicesBlock">Услуги</a>
+                    <a href="./index.php#servicesBlock">Услуги</a>
                 </li>
                 <li>
-                    <a href="#employees">Мастера</a>
+                    <a href="./index.php#employees">Мастера</a>
                 </li>
                 <li>
-                    <a href="#about">О нас</a>
+                    <a href="./index.php#about">О нас</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Отзывы</a>
+                    <a href="./index.php#testimonials">Отзывы</a>
                 </li>
                 <li>
-                    <a href="#testimonials">Портфолио</a>
+                    <a href="portfolio.php">Портфолио</a>
+
                 </li>
                 <li>
                     <a href="price.php">Прайс</a>
                 </li>
                 <li>
-                    <a href="#contactInfo">Контакты</a>
+
+                    <a href="./index.php#contactInfo">Контакты</a>
+
                 </li>
             </ul>
         </nav>
@@ -119,4 +127,5 @@
         <button id="buttonMessage" class="header-btn btn">
             Записаться онлайн
         </button>
+
     </div>

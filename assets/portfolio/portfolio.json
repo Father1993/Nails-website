@@ -1,0 +1,70 @@
+[
+    {
+        "image_name": "0.webp",
+        "image": "../img"
+    },
+    {
+        "image_name": "1.webp",
+        "image": "../img/portfolio/1.webp"
+    },
+    {
+        "image_name": "2.webp",
+        "image": "../img/portfolio/2.webp"
+    },
+    {
+        "image_name": "3.webp",
+        "image": "../img/portfolio/3.webp"
+    },
+    {
+        "image_name": "4.webp",
+        "image": "../img/portfolio/4.webp"
+    },
+    {
+        "image_name": "5.webp",
+        "image": "../img/portfolio/5.webp"
+    },
+    {
+        "image_name": "6.webp",
+        "image": "../img/portfolio/6.webp"
+    },
+    {
+        "image_name": "7.webp",
+        "image": "../img/portfolio/7.webp"
+    },
+    {
+        "image_name": "8.webp",
+        "image": "../img/portfolio/8.webp"
+    },
+    {
+        "image_name": "9.webp",
+        "image": "../img/portfolio/9.webp"
+    },
+    {
+        "image_name": "10.webp",
+        "image": "../img/portfolio/10.webp"
+    },
+    {
+        "image_name": "11.webp",
+        "image": "../img/portfolio/11.webp"
+    },
+    {
+        "image_name": "12.webp",
+        "image": "../img/portfolio/12.webp"
+    },
+    {
+        "image_name": "13.webp",
+        "image": "../img/portfolio/13.webp"
+    },
+    {
+        "image_name": "14.webp",
+        "image": "../img/portfolio/14.webp"
+    },
+    {
+        "image_name": "15.webp",
+        "image": "../img/portfolio/15.webp"
+    },
+    {
+        "image_name": "16.webp",
+        "image": "../img/portfolio/16.webp"
+    }
+]

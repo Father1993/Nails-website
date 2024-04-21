@@ -462,8 +462,17 @@ a {
 }
 
 .services-title {
-    margin-bottom: 100px;
+    margin-bottom: 130px;
     margin-right: 190px;
+}
+
+.services-title-pay {
+    margin-top: 100px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--specialFonts);
+    color: var(--green);
 }
 
 .services-wrapper {
@@ -512,10 +521,11 @@ a {
     --bs-accordion-active-bg: var(--veryLightGreen);
 }
 
-.accordion-body h3 {
+.accordion-body > h3 {
     font-size: 1.3rem;
     font-family: var(--specialFonts);
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .accordion-collapse ul li {
@@ -557,7 +567,7 @@ a {
 }
 
 .master-image {
-    max-width: 350px;
+    width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
@@ -782,8 +792,81 @@ a {
     max-width: 100%;
 }
 
+.portfolio__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.portfolio-image {
+    height: 600px;
+    border-radius: 15px;
+    transition: transform 0.4s ease-in;
+}
+
+.two-image-wrapper > img {
+    width: 33%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.all-images-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 130px;
+}
+
+.all-images-wrapper > img {
+    width: 700px;
+    height: auto;
+}
+
+.portfolio-image:hover {
+    transform: scale(1.3);
+}
+
 .footer {
     background-color: var(--darkGreen);
+}
+
+.cosmetic-block {
+    margin-top: 50px;
+}
+
+.cosmetic__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 130px;
+}
+
+.cosmetic-title > p {
+    font-family: var(--appFonts);
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cosmetic-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cosmetic-img > img {
+    width: 600px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.pay-hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mar__top {
+    margin-top: 130px;
 }
 
 .footer-wrapper {
@@ -903,6 +986,16 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+    .cosmetic-img {
+        flex-direction: column;
+    }
+
+    .cosmetic-img > img {
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 15px;
+    }
+
     .form {
         max-width: 450px;
     }
@@ -917,6 +1010,23 @@ a {
 
     .map-wrapper > iframe {
         max-width: 450px;
+    }
+
+    .two-image-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .portfolio-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .two-image-wrapper > img {
+        width: 100%;
     }
 }
 
@@ -953,7 +1063,7 @@ a {
     }
 
     .master-image {
-        max-width: 100%;
+        width: 100%;
     }
 
     .header-menu > li > a {
@@ -1131,6 +1241,11 @@ a {
         display: none;
     }
 
+    .swiper-p {
+        width: 700px;
+        height: 300px;
+    }
+
     .testimonial-infoblock {
         font-size: 1.1rem;
     }
@@ -1195,6 +1310,29 @@ a {
         overflow: hidden;
     }
 
+    .all-images-wrapper > img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .portfolio-image {
+        margin: 50px;
+        overflow: hidden;
+    }
+
+    .all-images-wrapper {
+        overflow: hidden;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+        margin-bottom: 0px;
+    }
+
+    .portfolio-image {
+        margin: 20px;
+    }
+
     #popup {
         position: fixed;
         width: 300px;
@@ -1220,6 +1358,13 @@ a {
         margin-right: 20px;
     }
 
+    .menu-image-btn {
+        z-index: 999;
+        position: fixed;
+        right: 50px;
+        top: 30px;
+    }
+
     .dropdown > button {
         border: none;
         background: transparent;
@@ -1230,7 +1375,10 @@ a {
     }
 
     .testimonials-wrapper {
-        height: 600px;
+        height: auto;
+    }
+    .services-title {
+        margin-bottom: 30px;
     }
 }
 

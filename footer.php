@@ -57,6 +57,30 @@
         <p>&copy; RUKTI Хабаровск 2024 | Все права защищены</p>
         <h6>Разработка <a href="https://spinej.ru/">SAG</a></h6>
     </section>
+    <div id="popup">
+        <div class="popup-title">
+            <h6>Оставьте заявку удобным вам способом!</h6>
+        </div>
+
+        <div class="popup-link">
+            <a id="popupFormMessage" target="_blank" href="#"><img class="envelope-image"
+                    src="./assets/img/icons/envelope-check.svg" alt="Оставить заявку" />
+                Оставить заявку</a>
+            <a target="_blank" href="tel:+79941443525">
+                <img class="telephone-image" src="./assets/img/icons/telephone-fill.svg" alt="телефон" />+7 (994)
+                144 35 25</a>
+            <a target="_blank" href="tel:+79142025889">
+                <img class="telephone-image" src="./assets/img/icons/telephone-fill.svg" alt="телефон" />+7 (914)
+                202 58 89</a>
+            <a target="_blank" href="https://wa.me/+79941443525">
+                <img class="whatsapp-image" src="./assets/img/icons/whatsapp.svg" alt="whatsapp" />Написать в
+                WhatsApp</a>
+            <a target="_blank" href="https://t.me/RUKTI_NAILS_KHV">
+                <img class="telegram-image" src="./assets/img/icons/telegram.svg" alt="telegram" />Написать в
+                Telegram</a>
+        </div>
+    </div>
+
 
 </footer>
 <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

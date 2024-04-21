@@ -29,7 +29,9 @@
     <meta property="og:title" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
     <meta property="og:description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
     <meta property="og:image" content="./assets/img/logo.png" />
-    <meta property="og:url" content="####" />
+
+    <meta property="og:url" content="https://rukti-khv.ru" />
+
 
     <!-- Descriptions -->
     <meta name="description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
@@ -39,7 +41,8 @@
     <meta name="author" content="Andrej Spinej.ru" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="ru" />
-    <meta name="og:url" content="####" />
+
+    <meta name="og:url" content="https://rukti-khv.ru" />
 
     <!-- Title -->
     <title>RUKTI | Ногтевой сервис | Хабаровск</title>
@@ -50,11 +53,12 @@
     <?php include 'header.php' ?>
     </header>
     <main class="main">
-        <button class="btn-popup-menu" id="popupMenuBtn">
-            <img src="./assets/img/icons/chat-square-dots.svg" alt="Заявка" />
-        </button>
+
+
 
         <section id="main-section" class="section-margin">
+
+
             <div class="main-section-wrapper container">
                 <div class="main-section-wrapper__title">
                     <button id="buttonMessageMobile" class="header-btn btn mobile-btn">
@@ -68,8 +72,9 @@
                 </div>
 
                 <div class="main-section-wrapper__images">
-                    <img data-aos="zoom-out-up" class="main-section-img-1" src="./assets/img/9.webp"
-                        alt="Ногти Хабаровск примеры" />
+                    <img data-aos="zoom-out-up" class="main-section-img-1" src="./assets/img/portfolio/04.webp"
+                        alt=" Ногти Хабаровск примеры" />
+
                     <img data-aos="zoom-out-up" class="main-section-img-2" src="./assets/img/7.webp"
                         alt="Ногти Хабаровск примеры" />
                     <img data-aos="zoom-out-left" class="main-section-img-3" src="./assets/img/4.webp"
@@ -162,11 +167,11 @@
                             </button>
                         </h2>
                         <div id="collapseFourth" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <h3>
-                                Уникальный педикюр на аппарате с подоспреем
-                                ждет вас!
-                            </h3>
                             <div class="accordion-body">
+                                <h3 class="accordion__title">
+                                    Уникальный педикюр на аппарате с подоспреем
+                                    ждет вас!
+                                </h3>
                                 <ul>
                                     <li>Индивидуальные консультации</li>
                                     <li>
@@ -364,6 +369,36 @@
                 Посмотреть больше отзывов или оставить комментарий можно
                 <a target="_blank" href="https://2gis.ru/khabarovsk/firm/70000001075870216">здесь</a>
             </h5>
+            <hr class="pay-hr mar__top container">
+
+            <div class="cosmetic-block container">
+
+                <div class="cosmetic__wrapper">
+
+                    <div class="cosmetic-title">
+                        <p>В салоне вы найдете широкий ассортимент продукции PodiaFarm. Мы гарантируем высокое качество
+                            каждого продукта, благодаря чему каждый клиент может уверенно выбирать то, что подходит
+                            именно ему. Благодаря приемлемым ценам, профессиональный уход за кожей становится доступным
+                            для каждого.</p>
+                        <div class="cosmetic-img">
+                            <img src="./assets/img/cosmitics/cosmitic2.jpeg" alt="Космецевтика купить в Хабаровске">
+                        </div>
+
+                        <p>Космецевтика - это уникальное сочетание косметологии и фармакологии, предлагающее продукты,
+                            которые не только улучшают внешний вид кожи, но и решают ее основные проблемы. PodiaFarm
+                            представляет собой новаторский подход к космецевтике, предлагая продукты для ухода за
+                            ногтями и кожей, основанные на научных исследованиях.</p>
+                    </div>
+                </div>
+                <hr class="pay-hr">
+                <p class="services-title-pay container">Мы предлагает вам удобство выбора оплаты: наличные или
+                    терминал.
+                    Наслаждайтесь комфортом!
+                </p>
+                <hr class="pay-hr mar__top">
+            </div>
+
+
         </section>
         <div id="newMessage" class="new-message">
             <div class="new-message-form">
@@ -423,28 +458,9 @@
                     width="600" height="600" style="border: 0"></iframe>
             </div>
         </div>
-        <div id="popup">
-            <div class="popup-title">
-                <h6>Оставьте заявку удобным вам способом!</h6>
-            </div>
 
-            <div class="popup-link">
-                <a id="popupFormMessage" target="_blank" href="#"><img class="envelope-image"
-                        src="./assets/img/icons/envelope-check.svg" alt="Оставить заявку" />
-                    Оставить заявку</a>
-                <a target="_blank" href="tel:+79941443525">
-                    <img class="telephone-image" src="./assets/img/icons/telephone-fill.svg" alt="телефон" />+7 (994)
-                    144 35 25</a>
-                <a target="_blank" href="tel:+79142025889">
-                    <img class="telephone-image" src="./assets/img/icons/telephone-fill.svg" alt="телефон" />+7 (914)
-                    202 58 89</a>
-                <a target="_blank" href="https://wa.me/+79941443525">
-                    <img class="whatsapp-image" src="./assets/img/icons/whatsapp.svg" alt="whatsapp" />Написать в
-                    WhatsApp</a>
-                <a target="_blank" href="https://t.me/RUKTI_NAILS_KHV">
-                    <img class="telegram-image" src="./assets/img/icons/telegram.svg" alt="telegram" />Написать в
-                    Telegram</a>
-            </div>
-        </div>
+
     </article>
     <?php include 'footer.php'; ?>
+
+    <script defer src="./assets/src/js/testimonials.js"></script>

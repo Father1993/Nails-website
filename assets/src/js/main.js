@@ -83,3 +83,25 @@ buttonMessageMobile.addEventListener('click', (e) => {
     e.preventDefault()
     newMessage.style.display = 'flex'
 })
+
+const swiperPortfolio = new Swiper('.swiper__portfolio', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+        el: '.swiper-pagination__portfolio',
+    },
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next__portfolio',
+        prevEl: '.swiper-button-prev__portfolio',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+        el: '.swiper-scrollbar__portfolio',
+    },
+})
