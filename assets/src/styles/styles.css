@@ -845,6 +845,7 @@ a {
 .cosmetic-title > p {
     font-family: var(--appFonts);
     font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
 .cosmetic-img {
