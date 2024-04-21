@@ -55,6 +55,7 @@
                 <img class="price-block__img" src="./assets/img/price_1.jpg" alt="Прайс">
                 <img class="price-block__img" src="./assets/img/price_1.jpg" alt="Цены на услуги">
             </div>
+
             <div id="newMessage" class="new-message">
                 <div class="new-message-form">
                     <div class="new-message-title">
@@ -73,6 +74,7 @@
                 </div>
             </div>
         </section>
+
 
     </main>
 

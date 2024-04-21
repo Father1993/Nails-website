@@ -1,5 +1,4 @@
 <footer id="footer" class="footer">
-
     <div class="footer-wrapper container">
         <section class="footer-social" id="social">
             <h6>RUKTI</h6>
@@ -82,6 +81,7 @@
         </div>
     </div>
 
+
 </footer>
 <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -92,6 +92,7 @@ AOS.init({
 })
 </script>
 <script defer src="./assets/src/js/bootstrap.min.js"></script>
+<script defer src="./assets/src/js/testimonials.js"></script>
 <script defer src="./assets/src/js/main.js"></script>
 </body>
 

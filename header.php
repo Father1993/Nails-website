@@ -55,9 +55,6 @@
             <button class="btn-popup-menu" id="popupMenuBtn">
                 <img src="./assets/img/icons/chat-square-dots.svg" alt="Заявка" />
             </button>
-
-
-
         </div>
 
         <div class="header__address-wrapper">
@@ -97,6 +94,7 @@
         <nav>
             <ul class="header-menu">
                 <li>
+
                     <a href="./index.php">Главная</a>
                 </li>
                 <li>
@@ -113,12 +111,15 @@
                 </li>
                 <li>
                     <a href="portfolio.php">Портфолио</a>
+
                 </li>
                 <li>
                     <a href="price.php">Прайс</a>
                 </li>
                 <li>
+
                     <a href="./index.php#contactInfo">Контакты</a>
+
                 </li>
             </ul>
         </nav>
@@ -126,6 +127,5 @@
         <button id="buttonMessage" class="header-btn btn">
             Записаться онлайн
         </button>
-
 
     </div>

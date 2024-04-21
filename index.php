@@ -29,7 +29,9 @@
     <meta property="og:title" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
     <meta property="og:description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
     <meta property="og:image" content="./assets/img/logo.png" />
+
     <meta property="og:url" content="https://rukti-khv.ru" />
+
 
     <!-- Descriptions -->
     <meta name="description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
@@ -39,6 +41,7 @@
     <meta name="author" content="Andrej Spinej.ru" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="ru" />
+
     <meta name="og:url" content="https://rukti-khv.ru" />
 
     <!-- Title -->
@@ -52,7 +55,9 @@
     <main class="main">
 
 
+
         <section id="main-section" class="section-margin">
+
 
             <div class="main-section-wrapper container">
                 <div class="main-section-wrapper__title">
@@ -69,6 +74,7 @@
                 <div class="main-section-wrapper__images">
                     <img data-aos="zoom-out-up" class="main-section-img-1" src="./assets/img/portfolio/04.webp"
                         alt=" Ногти Хабаровск примеры" />
+
                     <img data-aos="zoom-out-up" class="main-section-img-2" src="./assets/img/7.webp"
                         alt="Ногти Хабаровск примеры" />
                     <img data-aos="zoom-out-left" class="main-section-img-3" src="./assets/img/4.webp"
@@ -161,7 +167,6 @@
                             </button>
                         </h2>
                         <div id="collapseFourth" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-
                             <div class="accordion-body">
                                 <h3 class="accordion__title">
                                     Уникальный педикюр на аппарате с подоспреем
@@ -392,6 +397,7 @@
                 </p>
                 <hr class="pay-hr mar__top">
             </div>
+
 
         </section>
         <div id="newMessage" class="new-message">
