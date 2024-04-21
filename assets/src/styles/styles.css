@@ -832,6 +832,42 @@ a {
     background-color: var(--darkGreen);
 }
 
+.cosmetic-block {
+    margin-top: 50px;
+}
+
+.cosmetic__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 130px;
+}
+
+.cosmetic-title > p {
+    font-family: var(--appFonts);
+    font-size: 1.2rem;
+}
+
+.cosmetic-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cosmetic-img > img {
+    width: 600px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.pay-hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.mar__top {
+    margin-top: 130px;
+}
+
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -949,6 +985,16 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+    .cosmetic-img {
+        flex-direction: column;
+    }
+
+    .cosmetic-img > img {
+        width: 100%;
+        margin-bottom: 30px;
+        border-radius: 15px;
+    }
+
     .form {
         max-width: 450px;
     }
@@ -1309,6 +1355,13 @@ a {
     .btn-popup-menu {
         margin-bottom: 20px;
         margin-right: 20px;
+    }
+
+    .menu-image-btn {
+        z-index: 999;
+        position: fixed;
+        right: 50px;
+        top: 30px;
     }
 
     .dropdown > button {

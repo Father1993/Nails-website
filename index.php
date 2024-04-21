@@ -50,11 +50,10 @@
     <?php include 'header.php' ?>
     </header>
     <main class="main">
-        <button class="btn-popup-menu" id="popupMenuBtn">
-            <img src="./assets/img/icons/chat-square-dots.svg" alt="Заявка" />
-        </button>
+
 
         <section id="main-section" class="section-margin">
+
             <div class="main-section-wrapper container">
                 <div class="main-section-wrapper__title">
                     <button id="buttonMessageMobile" class="header-btn btn mobile-btn">
@@ -365,10 +364,35 @@
                 Посмотреть больше отзывов или оставить комментарий можно
                 <a target="_blank" href="https://2gis.ru/khabarovsk/firm/70000001075870216">здесь</a>
             </h5>
-            <p class="services-title-pay container">Наш салон предлагает вам удобство выбора оплаты: наличные или
-                терминал.
-                Наслаждайтесь комфортом!
-            </p>
+            <hr class="pay-hr mar__top container">
+
+            <div class="cosmetic-block container">
+
+                <div class="cosmetic__wrapper">
+
+                    <div class="cosmetic-title">
+                        <p>В салоне вы найдете широкий ассортимент продукции PodiaFarm. Мы гарантируем высокое качество
+                            каждого продукта, благодаря чему каждый клиент может уверенно выбирать то, что подходит
+                            именно ему. Благодаря приемлемым ценам, профессиональный уход за кожей становится доступным
+                            для каждого.</p>
+                        <div class="cosmetic-img">
+                            <img src="./assets/img/cosmitics/cosmitic2.jpeg" alt="Космецевтика купить в Хабаровске">
+                        </div>
+
+                        <p>Космецевтика - это уникальное сочетание косметологии и фармакологии, предлагающее продукты,
+                            которые не только улучшают внешний вид кожи, но и решают ее основные проблемы. PodiaFarm
+                            представляет собой новаторский подход к космецевтике, предлагая продукты для ухода за
+                            ногтями и кожей, основанные на научных исследованиях.</p>
+                    </div>
+                </div>
+                <hr class="pay-hr">
+                <p class="services-title-pay container">Мы предлагает вам удобство выбора оплаты: наличные или
+                    терминал.
+                    Наслаждайтесь комфортом!
+                </p>
+                <hr class="pay-hr mar__top">
+            </div>
+
         </section>
         <div id="newMessage" class="new-message">
             <div class="new-message-form">
@@ -429,29 +453,7 @@
             </div>
         </div>
 
-        <div id="popup">
-            <div class="popup-title">
-                <h6>Оставьте заявку удобным вам способом!</h6>
-            </div>
 
-            <div class="popup-link">
-                <a id="popupFormMessage" target="_blank" href="#"><img class="envelope-image"
-                        src="./assets/img/icons/envelope-check.svg" alt="Оставить заявку" />
-                    Оставить заявку</a>
-                <a target="_blank" href="tel:+79941443525">
-                    <img class="telephone-image" src="./assets/img/icons/telephone-fill.svg" alt="телефон" />+7 (994)
-                    144 35 25</a>
-                <a target="_blank" href="tel:+79142025889">
-                    <img class="telephone-image" src="./assets/img/icons/telephone-fill.svg" alt="телефон" />+7 (914)
-                    202 58 89</a>
-                <a target="_blank" href="https://wa.me/+79941443525">
-                    <img class="whatsapp-image" src="./assets/img/icons/whatsapp.svg" alt="whatsapp" />Написать в
-                    WhatsApp</a>
-                <a target="_blank" href="https://t.me/RUKTI_NAILS_KHV">
-                    <img class="telegram-image" src="./assets/img/icons/telegram.svg" alt="telegram" />Написать в
-                    Telegram</a>
-            </div>
-        </div>
     </article>
     <?php include 'footer.php'; ?>
 

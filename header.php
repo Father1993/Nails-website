@@ -36,7 +36,6 @@
 </div>
 
 <header class="header">
-
     <div class="header__first-row container">
         <div class="header__logo-wrapper">
             <div class="header__logo-wrapper--logo">
@@ -47,10 +46,18 @@
             </div>
 
             <div id="dropDown" class="dropdown">
-                <button>
+                <button class="menu-image-btn">
                     <img class="menu-image" src="./assets/img/icons/list.svg" alt="Кнопка меню" />
                 </button>
             </div>
+
+
+            <button class="btn-popup-menu" id="popupMenuBtn">
+                <img src="./assets/img/icons/chat-square-dots.svg" alt="Заявка" />
+            </button>
+
+
+
         </div>
 
         <div class="header__address-wrapper">
@@ -118,10 +125,6 @@
 
         <button id="buttonMessage" class="header-btn btn">
             Записаться онлайн
-        </button>
-
-        <button class="btn-popup-menu" id="popupMenuBtn">
-            <img src="./assets/img/icons/chat-square-dots.svg" alt="Заявка" />
         </button>
 
 
