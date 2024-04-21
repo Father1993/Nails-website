@@ -1,4 +1,4 @@
-fetch('/Nails-website/assets/testimonials/testimonials.json')
+fetch('/assets/testimonials/testimonials.json')
     .then((response) => response.json())
     .then((data) => {
         let swiperWrapper = document.querySelector('.swiper-wrapper')
