@@ -26,10 +26,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
     <link rel="mask-icon" href="./assets/img/logo.png" color="#5bbad5" />
+
     <meta property="og:title" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
     <meta property="og:description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
-    <meta property="og:image" content="./assets/img/logo.png" />
-    <meta property="og:url" content="https://rukti-khv.ru" />
+
+    <meta property="og:image" content="https://rukti-khv.ru/assets/img/logo.png />
+    <meta property=" og:url" content="https://rukti-khv.ru" />
 
     <!-- Descriptions -->
     <meta name="description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />

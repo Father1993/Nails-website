@@ -26,20 +26,22 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
     <link rel="manifest" href="./assets/favicon/site.webmanifest" />
     <link rel="mask-icon" href="./assets/img/logo.png" color="#5bbad5" />
-    <meta property="og:title" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
-    <meta property="og:description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
-    <meta property="og:image" content="./assets/img/logo.png" />
-    <meta property="og:url" content="####" />
+
+    <meta property="og:title" content="RUKTI | Прайс услуги ногтевого сервиса в Хабаровске" />
+    <meta property="og:description" content="RUKTI | Прайс услуги ногтевого сервиса в Хабаровске" />
+    <meta property="og:image" content="https://rukti-khv.ru/assets/img/logo.png" />
+    <meta property="og:url" content="https://rukti-khv.ru/price" />
 
     <!-- Descriptions -->
-    <meta name="description" content="RUKTI | Высококачественные услуги ногтевого сервиса в Хабаровске" />
+    <meta name="description" content="RUKTI | Прайс услуги ногтевого сервиса в Хабаровске" />
 
     <!-- Keywords -->
-    <meta name="keywords" content="маникюр, педикюр, ногтевой, сервис, Хабаровск, ногти, RUKTI, рукти, rukti " />
+    <meta name="keywords"
+        content="цена, прайс, маникюр, педикюр, ногтевой, сервис, Хабаровск, ногти, RUKTI, рукти, rukti " />
     <meta name="author" content="Andrej Spinej.ru" />
     <meta name="robots" content="index, follow" />
     <meta name="language" content="ru" />
-    <meta name="og:url" content="####" />
+    <meta name="og:url" content="https://rukti-khv.ru/price" />
 
     <!-- Title -->
     <title>RUKTI | Прайс | Цены Хабаровск</title>
